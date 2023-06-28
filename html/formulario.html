@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>formulario</title>
+    <link rel="stylesheet" href="../css/filial.css">
+</head>
+<body>
+    <nav id="menu">  
+        <ul >
+            <li><a href="./projeto.html">Projeto</a></li>
+            <li><a href="./devs.html">Devs</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./historia.html">História</a></li>
+            <li ><a href="./formulario.html"> Filial</a></li>
+        </ul>
+    </nav>
+
+    <div class=texto-filial>
+        <h1>Deseja abrir uma filial?</h1>
+        <p>Preencha os dados a seguir:</p>
+    </div>
+    <form action="#">
+
+        <div id="nome-div">
+            <label for="nome" ><strong>Nome</strong></label>
+            <input name="nome" id="nome" type="text" placeholder="Digite seu nome" required><br><br>
+        </div>
+        <div id="sobrenome-div">
+            <label for="sobrenome" ><strong>Sobrenome</strong>:</label>
+            <input name="sobrenome" id="sobrenome" type="text" placeholder="Digite seu sobrenome" required><br><br>
+        </div>
+          
+        <div>
+            <label for="email"><strong>E-mail</strong>:</label>
+            <input name="email" id="email" type="email" placeholder="Ex.:usuario@gmail.com" required><br><br>
+        </div>
+            <label for="telefone"><strong>Celular</strong></label>
+            <input name="tel" id="tel" type="tel" placeholder="Ex.:(34) 99999 9999" required><br><br>
+        <div>
+            <label for="Cidade:"><strong>Cidade</strong></label>
+            <input name="cidade" id="cidade" type="text" placeholder="Ex.:Patrocínio" required><br><br>
+        </div>
+        <div>    
+            <label for="uf"><strong>Estado-UF</strong>:</label>
+                <select id="uf" name="uf" required>
+                    <option value="">Selecione</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select><br><br>
+        </div>
+        <div>
+            <label for="cpf"><strong>CPF/CNPJ</strong></label>
+            <input name="cpf" id="cpf" type="tel" placeholder="Ex.:999.999.999-99" required><br><br>
+        </div>
+        <div>
+            <label for="cep"><strong>CEP</strong>:</label>
+            <input name="cep" id="cep"type="tel" placeholder="Ex.:99999-999" required><br><br>
+        </div>
+        <div id="botao-enviar">
+            <button id="enviar" type="submit">Enviar</button>
+        </div>
+    </form>
+    <footer>
+        <p>Direitos reservados aos devs do grupo De Rocha</p>
+        <nav>
+            <ul id="contatos-ul">
+                <li class="contatos-li"><a target="_blank" class="link-contatos" href="https://www.instagram.com/central_perk.coffe/"><img class="img-footer" src="../imagens/instagran.png"></a></li>
+
+                <li class="contatos-li"><a target="_blank" class="link-contatos" href="https://twitter.com/Central_perkkj"><img class="img-footer" src="../imagens/twitter.png"></a></li>
+
+                <li class="contatos-li"><a class="link-contatos" href="./devs.html">Sobre nós</a></li>
+
+                <li class="contatos-li"><a class="link-contatos" href="./historia.html">Historia</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,111 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Lato:wght@700&family=Open+Sans&display=swap');
+/*Cores*/
+:root{
+    --verde-escuro: rgba(30,56,51,255);
+    --verde-claro: rgba(0,117,74,255);
+    --marrom: #8B5A2B;
+}
+/*geral*/
+body{
+    background-color: var(--verde-escuro);
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    margin: 10px 580px;
+    border: 2px black solid;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+}
+/*Menu*/
+#menu{
+    background-color: var(--verde-escuro);
+    text-align: center;
+}
+#menu ul{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 35px;
+    transition: background .6s;
+}
+#menu ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/*Titulo e explicação*/
+.texto-filial{
+    text-align: center;
+    background-color: white;
+}
+.texto-filial h1{
+    font-family: 'Lato', sans-serif;
+}
+.texto-filial p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+/*Dados*/
+input, select, label{
+    border-radius: 7px;
+    font-size: 25px;
+}
+#nome-div{
+    display: inline-block;
+}
+#sobrenome-div{
+    display: inline-block;
+}
+#enviar{
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+    font-family: 'Lato', sans-serif;
+}
+#botao-enviar{
+    text-align: center;
+}
+#enviar:hover{
+    background-color: var(--verde-escuro);
+    color: white;
+    transition: background .6s;
+}
+/*footer*/
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+#contatos-ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.contatos-li{
+	display: inline-block;
+	margin: 0 10px;
+}
+.link-contatos{
+	color: #fff;
+	text-decoration: none;
+}
+.img-footer{
+    width: 50px;
+}
